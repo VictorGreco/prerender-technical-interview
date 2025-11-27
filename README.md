@@ -1,5 +1,3 @@
-hole
-
 ## Prerender Technical Interview API
 
 Minimal Express starter designed for interview-style exercises. It includes a health check, a mock users endpoint, and Jest + Supertest coverage so you can demo both building and testing skills quickly.

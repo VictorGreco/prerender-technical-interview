@@ -8,4 +8,3 @@ router.use('/health', healthRouter)
 router.use('/users', usersRouter)
 
 module.exports = router
-
