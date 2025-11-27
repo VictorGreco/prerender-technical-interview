@@ -26,10 +26,13 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+        timeout-minutes: 5
 
       - name: Run tests
         run: npm test
+        timeout-minutes: 10
 
       - name: Run linter
         run: npm run lint
+        timeout-minutes: 5
 
